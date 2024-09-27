@@ -67,4 +67,7 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
     implementation(libs.androidx.navigation.compose)
+    //-- for navigation one screen to another screen --//
+    implementation (libs.navigation.compose.v270)
+
 }
